@@ -28,3 +28,4 @@ print(k)
 age = 30
 simpleText = f"My name is John and I am {age}"
 print(simpleText)
+print(simpleText.capitalize())
