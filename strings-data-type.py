@@ -17,3 +17,14 @@ print(simpleWord.lower())
 print(simpleWord.strip())
 print(simpleWord.replace("Word", "World"))
 print(simpleWord.strip().split(" "))
+
+# String Concatenation
+i = "Hello"
+j = "Kenya"
+
+k = i + " " + j
+print(k)
+
+age = 30
+simpleText = f"My name is John and I am {age}"
+print(simpleText)
