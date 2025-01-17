@@ -16,3 +16,22 @@ print(y)
 print(type(z))
 print(type(i))
 print(type(j))
+
+a = "Python"
+b = "is"
+c = "awesome!"
+
+print(a, b, c)
+print("Hello","World")
+
+n = "Awesome"
+
+def myFunc():
+    global n
+    n = "Fantastic"
+    print("Python is " + n)
+
+
+myFunc()
+
+print(n)
