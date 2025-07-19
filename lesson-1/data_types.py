@@ -1,3 +1,5 @@
+import math
+
 # String Data Type
 first_name = "John"
 last_name = "Doe"
@@ -19,7 +21,25 @@ print(fullname)
 tea_cups = str(200)
 print(type(tea_cups))
 print(tea_cups)
-print("****************************")
+print("")
 # String Methods
 print(first_name.upper())
 print(last_name.lower())
+
+print("")
+
+title = "menu"
+print(title.center(20, "*"))
+print("Coffee".ljust(16, "_") + "+1".rjust(5))
+print("Muffin".ljust(16, "_") + "+4".rjust(5))
+print("Cake".ljust(16, "_") + "+6".rjust(5))
+print("")
+
+# Numeric Data Types
+price = 100
+best_price = int(80)
+print(type(price))
+print(isinstance(best_price, int))
+
+
+print(math.pi)
